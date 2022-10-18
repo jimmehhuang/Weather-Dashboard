@@ -2,36 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 70%;
 }
 .border {
     border: 1px solid black;
 }
-
 .spacebetween{
     justify-content: space-around;
 }
-
 .container {
     width: 80%;
     margin: 0 auto;
 }
-
 .row {
     display: flex;
     flex-wrap: wrap;
 }
-
 .col1 {
     width: 20%;
     margin: 0 auto;
 }
-
 .col2 {
     width: 65%;
     margin-right: auto;
     margin-top: 1%;
 }
-
 .col3 {
     width: 18%;
     
@@ -40,29 +35,26 @@
 body { 
     height: 100vh; 
 }
-
-/* style the header */
 header {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 10px;
     background-color: navy;
+    background-image: linear-gradient(navy, rgb(69, 45, 175), black);
 }
-
-/* style the heading */
 .heading {
     color:white;
     font-size: 4rem;
     font-weight: bold;
 }
 
-/* style the h1 */
+/* font styles of h1 and h2 */
 .h1 {
     font-weight: bold;
     font-size: 3.25rem;
     margin: 2rem auto;
 }
-/* style the h2 */
+
 h2 {
     font-size: 3rem;
     font-weight: bold;
@@ -85,12 +77,17 @@ h2 {
 
 /* search button style */
 #search-btn {
-    margin-bottom: 2rem;
-    background-color: #6699ff;
+    background-color: navy;
     color: white;
 }
 
-/* style for each history button */
+/* #clear-btn{
+    margin-bottom: 2rem;
+    background-color: navy;
+    color: white;
+} */
+
+/* style for each search history button */
 .btn {
     font-size: 2rem;
     width: 100%;
@@ -125,31 +122,6 @@ ul {
     filter: drop-shadow(0 0 0.75rem grey);
 }
 
-/* UV index styling */
-.favorable {
-    background-color: green;
-    font-size: 2rem;
-    border-radius: .5rem;
-}
-
-.moderate {
-    background-color: yellow;
-    font-size: 2rem;
-    border-radius: .5rem;
-}
-
-.severe {
-    background-color: red;
-    font-size: 2rem;
-    border-radius: .5rem;
-}
-
-/* add padding to the index on UVindex value */
-span {
-    padding: 0 1.5rem;
-    color: white;
-}
-
 /* style the h3 header */
 h3 {
     font-weight: bold;
@@ -159,7 +131,7 @@ h3 {
 
 /* style the .card-body */
 .card-body {
-    background-color:#00334d;
+    background-color: darkblue;
     height: 20rem;
     padding-left: 4%;
     padding-top: 4%;
