@@ -7,22 +7,29 @@ This weather dashboard was created using integrated web development elements inc
 ## Usage
 
 On page open, the screen will have a search box and previously entered city names.
+
 ![Home screen picture](./assets/images/homescreen.png)
 
 Clicking on city names or searching a city will display the current weather conditions, as well as a weather forecast for the next 5 days. Temperatures listed are in increments of 24 hours from the current time.
+
 ![Screen once city is searched](./assets/images/search.png)
 
 If a user does not make an input, a window alert will prompt the user to enter a city name to use the function.
 ![Please enter a city name.](./assets/images/pleaseenter.png)
 
+
 If a user attempts to search a city already saved into local storage, a window alert will prompt them to click the generated history button.
+
 ![Search already included.](./assets/images/alreadysearched.png)
 
 ## Credits
 
 API's referenced in this project:
+
 Weatherbit.io: https://www.weatherbit.io/api/weather-current
+
 Open weather map (current weather): https://openweathermap.org/current
+
 Open weather map (forecast): https://openweathermap.org/forecast16
 
 ## License
