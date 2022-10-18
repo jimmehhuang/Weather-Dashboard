@@ -1,7 +1,7 @@
 //global variables
 var APIKey = '492bfb1c167496057a01a6589eba5d8e';
 var coordinatesUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=';
-var forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?lat=";
+var forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=";
 var userFormEl = $('#city-search');
 var col2El = $('.col2');
 var cityInputEl = $('#city');
@@ -9,7 +9,7 @@ var fiveDayEl = $('#forecast');
 var searchHistoryEl = $('#search-history');
 var currentDay = moment().format('M/DD/YYYY');
 var city;
-const weatherIconUrl = 'http://openweathermap.org/img/wn/';
+const weatherIconUrl = 'https://openweathermap.org/img/wn/';
 var searchHistoryArray = loadSearchHistory();
 //weatherbit.io API
 var weatherbitKey = "cee3158b81624efdb69c85c5b782d480";
